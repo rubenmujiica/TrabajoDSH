@@ -5,11 +5,18 @@ using UnityEngine;
 
 public class Personaje : MonoBehaviour
 {
+
+
     [SerializeField] private float velocidad;
 
     private Rigidbody2D rig;
     private Animator anim;
     private SpriteRenderer spritePersonaje;
+
+    void Start()
+    {
+        
+    }
 
     private void Awake()
     {
@@ -18,9 +25,12 @@ public class Personaje : MonoBehaviour
         spritePersonaje = GetComponentInChildren<SpriteRenderer>();
     }
 
+    
+
     private void FixedUpdate()
     {
         Movimiento();
+        
     }
 
     private void Movimiento()
@@ -40,6 +50,7 @@ public class Personaje : MonoBehaviour
         {
             spritePersonaje.flipX=true;
         }
-    
+
+        
     }
 }
