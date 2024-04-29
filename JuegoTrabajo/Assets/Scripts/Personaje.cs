@@ -12,10 +12,11 @@ public class Personaje : MonoBehaviour
     private Rigidbody2D rig;
     private Animator anim;
     private SpriteRenderer spritePersonaje;
+    public VectorValue starting;
 
     void Start()
     {
-        
+        transform.position = starting.initialValue;
     }
 
     private void Awake()

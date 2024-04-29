@@ -9,9 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Mapa.unity
     guid: 5d57858f49950e546af711913ebbb48a
   - enabled: 1
-    path: Assets/Scenes/CasaHerrero.unity
+    path: Assets/Scenes/CasaTaifa.unity
     guid: 2afe143c80da19747b8e3c7b22075bf7
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/DialogoHerrero.unity
+    guid: 363a04d09f71c7247a0b44c940ecc526
+  - enabled: 1
+    path: Assets/Scenes/DialogoTaifa.unity
+    guid: 83bb4455924957b4f94d87738b3e8938
   m_configObjects: {}
