@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DialogoTaifa.unity
     guid: 83bb4455924957b4f94d87738b3e8938
+  - enabled: 1
+    path: Assets/Scenes/CasaHerrero.unity
+    guid: 88fa15969632a6044b1b7acb63f17850
+  - enabled: 1
+    path: Assets/Scenes/CasaHerrero2.unity
+    guid: 5e1f2de694e68b0499c163d55d93bd6c
   m_configObjects: {}
