@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CasaHerrero2.unity
     guid: 5e1f2de694e68b0499c163d55d93bd6c
+  - enabled: 1
+    path: Assets/Scenes/CasaRandom.unity
+    guid: 131f77ce38acaef4aaac964ef194dc92
+  - enabled: 1
+    path: Assets/Scenes/CasaRandom2.unity
+    guid: 456847d9c79fd704aa81a3cb5cfed46f
   m_configObjects: {}
