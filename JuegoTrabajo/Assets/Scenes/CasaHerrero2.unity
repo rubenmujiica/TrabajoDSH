@@ -4805,7 +4805,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: CasaHerrero
-  playerPosition: {x: -6.35, y: 9.43}
+  playerPosition: {x: 3.86, y: 0.16}
   playerStorage: {fileID: 11400000, guid: 088c1b2081b68c44da913efd43309115, type: 2}
 --- !u!1 &641210757
 GameObject:
@@ -7537,7 +7537,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8329861995532386149, guid: 09058f478a413ab4a9a3fc474aab0e84, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.12
+      value: -4.1
       objectReference: {fileID: 0}
     - target: {fileID: 8329861995532386149, guid: 09058f478a413ab4a9a3fc474aab0e84, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7869,12 +7869,16 @@ PrefabInstance:
       value: -0.019570664
       objectReference: {fileID: 0}
     - target: {fileID: 4455005029706329267, guid: bd792ec048c3b2042acc078a016621ff, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455005029706329267, guid: bd792ec048c3b2042acc078a016621ff, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.11
       objectReference: {fileID: 0}
     - target: {fileID: 4455005029706329267, guid: bd792ec048c3b2042acc078a016621ff, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.61
+      value: -3.89
       objectReference: {fileID: 0}
     - target: {fileID: 4455005029706329267, guid: bd792ec048c3b2042acc078a016621ff, type: 3}
       propertyPath: m_LocalPosition.z
