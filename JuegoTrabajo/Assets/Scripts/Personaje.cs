@@ -14,6 +14,10 @@ public class Personaje : MonoBehaviour
     private SpriteRenderer spritePersonaje;
     public VectorValue starting;
 
+    public CoinManager cm;
+    //sonido
+    public AudioClip sonidoMoneda;
+
     void Start()
     {
         transform.position = starting.initialValue;
@@ -51,7 +55,16 @@ public class Personaje : MonoBehaviour
         {
             spritePersonaje.flipX=true;
         }
+    }
 
-        
+    //Jugador recoge monedas
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Moneda"))
+        {
+            cm.totalCoins++;
+            AudioSource.PlayClipAtPoint(sonidoMoneda, transform.position);
+            Destroy(other.gameObject);
+        }
     }
 }
