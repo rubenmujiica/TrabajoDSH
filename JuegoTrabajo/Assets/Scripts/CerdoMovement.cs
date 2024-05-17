@@ -11,6 +11,8 @@ public class CerdoMovement : MonoBehaviour
     private SpriteRenderer sprite;
     // private Transform objetivo;
 
+    public GameObject PanelGameOver;
+
     private void Awake()
     {
         agente = GetComponent<NavMeshAgent>();
@@ -43,4 +45,15 @@ public class CerdoMovement : MonoBehaviour
             sprite.flipX = false;
         }
     }
+
+    //Si toca un objeto 2d con el tag "Player" se activa el panel de Game Over y desactiva el jugador
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            PanelGameOver.SetActive(true);
+            personaje.gameObject.SetActive(false);
+        }
+    }
+
 }

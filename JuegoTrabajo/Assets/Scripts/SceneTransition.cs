@@ -18,4 +18,11 @@ public class SceneTransition : MonoBehaviour
             SceneManager.LoadScene(sceneToLoad);
         }
     }
+
+
+    //Reiniciar la escena actual
+    public void Reiniciar()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 }
