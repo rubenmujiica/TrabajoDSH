@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameControllerScript : MonoBehaviour
 {
+    public GameObject PanelGameOver;
     public const int columns = 5;
     public const int rows = 2;
 
@@ -104,6 +105,16 @@ public class GameControllerScript : MonoBehaviour
 
         attempts++;
         attemptsText.text = "Intentos: " + attempts;
+
+        //si llega a 12 intentos, se activa el panel de Game Over y dejan de aparecer las cartas
+        if(attempts == 3)
+        {
+            PanelGameOver.SetActive(true);
+            foreach(MainImageScript gameImage in FindObjectsOfType<MainImageScript>())
+            {
+                gameImage.gameObject.SetActive(false);
+            }
+        }
 
         firstOpen = null;
         secondOpen = null;
