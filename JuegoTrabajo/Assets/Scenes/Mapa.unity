@@ -22961,7 +22961,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: CasaRandom
-  playerPosition: {x: -1.4, y: -3.74}
+  playerPosition: {x: -1.13, y: -4.16}
   playerStorage: {fileID: 11400000, guid: 088c1b2081b68c44da913efd43309115, type: 2}
 --- !u!1001 &3014698274620109333
 PrefabInstance:
@@ -22985,11 +22985,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8329861995532386149, guid: 09058f478a413ab4a9a3fc474aab0e84, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -24.28
+      value: 8.7
       objectReference: {fileID: 0}
     - target: {fileID: 8329861995532386149, guid: 09058f478a413ab4a9a3fc474aab0e84, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 15.17
+      value: 12.28
       objectReference: {fileID: 0}
     - target: {fileID: 8329861995532386149, guid: 09058f478a413ab4a9a3fc474aab0e84, type: 3}
       propertyPath: m_LocalPosition.z

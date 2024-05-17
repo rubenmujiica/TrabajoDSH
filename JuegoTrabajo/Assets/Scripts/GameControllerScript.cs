@@ -107,7 +107,7 @@ public class GameControllerScript : MonoBehaviour
         attemptsText.text = "Intentos: " + attempts;
 
         //si llega a 12 intentos, se activa el panel de Game Over y dejan de aparecer las cartas
-        if(attempts == 3)
+        if(attempts == 10)
         {
             PanelGameOver.SetActive(true);
             foreach(MainImageScript gameImage in FindObjectsOfType<MainImageScript>())
