@@ -7698,7 +7698,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: Mapa
-  playerPosition: {x: -23.46, y: 14.4}
+  playerPosition: {x: -24.28, y: 15.17}
   playerStorage: {fileID: 11400000, guid: 088c1b2081b68c44da913efd43309115, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
