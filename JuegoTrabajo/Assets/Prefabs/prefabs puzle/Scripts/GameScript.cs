@@ -17,7 +17,7 @@ public class GameScript : MonoBehaviour
     void Start()
     {
         _camera = Camera.main;
-        //Shuffle();
+        Shuffle();
     }
 
     // Update is called once per frame
