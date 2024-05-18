@@ -47,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TaifaLS2.unity
     guid: 9464c89b4b28b7b499c8e4a8d4448bef
+  - enabled: 1
+    path: Assets/Scenes/Puzle.unity
+    guid: e3dd901d2d1e1364aa457f71d7adbe60
   m_configObjects: {}
