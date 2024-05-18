@@ -1290,7 +1290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6684bd108f798ee46909a78d2259be22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: DialogoTaifa
+  sceneToLoad: TaifaLS1
 --- !u!61 &1132380568
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1323,7 +1323,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0937469, y: -1.3437057}
+  m_Offset: {x: -0.07886773, y: -0.9717257}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1334,7 +1334,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.1874938, y: 0.87500477}
+  m_Size: {x: 1.9909664, y: 1.5594478}
   m_EdgeRadius: 0
 --- !u!4 &1132380569
 Transform:
