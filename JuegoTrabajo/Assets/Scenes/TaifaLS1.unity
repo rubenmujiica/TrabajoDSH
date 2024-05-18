@@ -799,6 +799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7d970c9cdaa09642a6c111cd93386ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneToLoad: CasaTaifaMinijuegos
   dialogueText: {fileID: 1472918603}
   lines:
   - "Me alegro mucho de tenerte por aqu\xED Finn, veo que ya has hablado con mi padre."

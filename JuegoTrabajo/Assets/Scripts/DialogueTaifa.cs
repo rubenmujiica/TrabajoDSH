@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 public class DialogueTaifa : MonoBehaviour
 {
 
+    public string sceneToLoad;
+
     public TextMeshProUGUI dialogueText;
 
     public string[] lines;
@@ -66,7 +68,7 @@ public class DialogueTaifa : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene("CasaTaifaMinijuegos");
+            SceneManager.LoadScene(sceneToLoad);
         }
     }
 
