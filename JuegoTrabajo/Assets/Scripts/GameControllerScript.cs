@@ -116,6 +116,11 @@ public class GameControllerScript : MonoBehaviour
             }
         }
 
+        if(score == 5)
+        {
+            SceneManager.LoadScene("TaifaLS3");
+        }
+
         firstOpen = null;
         secondOpen = null;
     }

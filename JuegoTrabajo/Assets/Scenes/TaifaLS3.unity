@@ -799,16 +799,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7d970c9cdaa09642a6c111cd93386ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: MinijuegoMemoria
+  sceneToLoad: SimonDice
   dialogueText: {fileID: 1472918603}
   lines:
-  - "Veo que aceptas el reto, pues adelante, \xA1vamos con los juegos!"
-  - El primer juego se llama...
-  - "\xA1Encuentra la Pareja Correcta!"
-  - "Tienes que ir levantando las cartas y encntrar todas las parejas de cartas.
-    Cuando encuentres dos parejas id\xE9nticas, estas permaneceran levantadas. Si
-    no, estas se esconder\xE1n y deber\xE1s recordarlas."
-  - Mucha suerte y recuerda, no te pases de los intentos permitidos.
+  - "\xA1Wow! Demasiado f\xE1cil para ti, Finn. Tranquilo que los dem\xE1s juegos
+    no ser\xE1n as\xED."
+  - "Mucha suerte con el siguiente, yo lo llamo: Sim\xF3n Dice. Recuerda la secuencia
+    de colores o fracasar\xE1s, espero que no pierdas la cabeza."
   textSpeed: 0.05
 --- !u!1 &1472918601
 GameObject:

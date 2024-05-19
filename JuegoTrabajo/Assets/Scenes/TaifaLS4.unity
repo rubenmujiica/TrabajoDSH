@@ -799,16 +799,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7d970c9cdaa09642a6c111cd93386ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: MinijuegoMemoria
+  sceneToLoad: Puzle
   dialogueText: {fileID: 1472918603}
   lines:
-  - "Veo que aceptas el reto, pues adelante, \xA1vamos con los juegos!"
-  - El primer juego se llama...
-  - "\xA1Encuentra la Pareja Correcta!"
-  - "Tienes que ir levantando las cartas y encntrar todas las parejas de cartas.
-    Cuando encuentres dos parejas id\xE9nticas, estas permaneceran levantadas. Si
-    no, estas se esconder\xE1n y deber\xE1s recordarlas."
-  - Mucha suerte y recuerda, no te pases de los intentos permitidos.
+  - "\xA1Bien hecho! Me parece que eres invencible en este tipo de juegos."
+  - "Pues bien, a ver c\xF3mo se te da este. Se llama: Puzzle Num\xE9rico. Encaja
+    los n\xFAmeros en su lugar correcto, no s\xE9 si ser\xE1s capaz esta vez jejeje"
   textSpeed: 0.05
 --- !u!1 &1472918601
 GameObject:

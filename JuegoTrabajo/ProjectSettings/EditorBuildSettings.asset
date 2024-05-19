@@ -50,4 +50,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Puzle.unity
     guid: e3dd901d2d1e1364aa457f71d7adbe60
+  - enabled: 1
+    path: Assets/Scenes/TaifaLS3.unity
+    guid: c417dd70788196547af34ea3b4da04f2
+  - enabled: 1
+    path: Assets/Scenes/SimonDice.unity
+    guid: 2bd493df43291614eaa45234e88e6565
+  - enabled: 1
+    path: Assets/Scenes/TaifaLS5.unity
+    guid: 060e0dbb27084c94eb114d431c5ff5f9
+  - enabled: 1
+    path: Assets/Scenes/TaifaLS4.unity
+    guid: 8ce59eedf3f90bc4b8662ecae408a871
+  - enabled: 1
+    path: Assets/Scenes/MapaDespuesJuegos.unity
+    guid: 79cfda5c2f85f2c44821523b1c1a3bb7
+  - enabled: 1
+    path: Assets/Scenes/CasaTaifaDespuesJuegos.unity
+    guid: 842a0f40755764b49b6ccb4292f518f7
   m_configObjects: {}
