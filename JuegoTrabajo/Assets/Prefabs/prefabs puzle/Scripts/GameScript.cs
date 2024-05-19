@@ -17,7 +17,7 @@ public class GameScript : MonoBehaviour
     void Start()
     {
         _camera = Camera.main;
-        Shuffle();
+        //Shuffle();
     }
 
     // Update is called once per frame
@@ -58,7 +58,7 @@ public class GameScript : MonoBehaviour
        
     }
     public void EndGame(){
-        SceneManager.LoadScene("Mapa");
+        SceneManager.LoadScene("TaifaLS5");
     }
 
     public void Shuffle(){

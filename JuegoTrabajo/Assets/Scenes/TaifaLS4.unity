@@ -804,7 +804,7 @@ MonoBehaviour:
   lines:
   - "\xA1Bien hecho! Me parece que eres invencible en este tipo de juegos."
   - "Pues bien, a ver c\xF3mo se te da este. Se llama: Puzzle Num\xE9rico. Encaja
-    los n\xFAmeros en su lugar correcto, no s\xE9 si ser\xE1s capaz esta vez jejeje"
+    los n\xFAmeros en su lugar correcto, no s\xE9 si ser\xE1s capaz esta vez ejeje"
   textSpeed: 0.05
 --- !u!1 &1472918601
 GameObject:
