@@ -13,13 +13,19 @@ public class DialogueTaifa : MonoBehaviour
 
     public string[] lines;
 
+    public AudioClip[] audioClips;
+
     public float textSpeed = 0.1f;
 
     int index;
 
+    public AudioSource audioSource; // AudioSource para reproducir los audios
+
+
     void Start()
     {
         dialogueText.text = string.Empty;
+        audioSource = gameObject.AddComponent<AudioSource>();
         StartDialogue();
     }
 
@@ -35,7 +41,9 @@ public class DialogueTaifa : MonoBehaviour
             else{
                 StopAllCoroutines();
                 dialogueText.text = lines[index];
+                StopAudio();
             }
+            
         }
     }
 
@@ -49,6 +57,7 @@ public class DialogueTaifa : MonoBehaviour
 
     IEnumerator WriteLine()
     {
+        PlayAudio(); // Reproducir el audio correspondiente a la línea actual
         foreach(char letter in lines[index].ToCharArray())
         {
             dialogueText.text += letter;
@@ -70,6 +79,25 @@ public class DialogueTaifa : MonoBehaviour
         {
             SceneManager.LoadScene(sceneToLoad);
         }
+    }
+
+    private void PlayAudio()
+    {
+        StopAudio(); // Detener el audio actual antes de reproducir el nuevo
+
+        if (audioClips != null && audioClips.Length > index && audioClips[index] != null)
+        {
+            audioSource.clip = audioClips[index];
+            audioSource.Play();
+        }
+    }
+
+    private void StopAudio()
+    {
+    if (audioSource.isPlaying)
+    {
+        audioSource.Stop();
+    }
     }
 
 }

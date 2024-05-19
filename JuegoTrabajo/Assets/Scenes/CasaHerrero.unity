@@ -212,7 +212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15a50d52d157fbe4998e0cd5a8d44895, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Mapa
+  sceneToLoad: MapaFinJuego
   playerPosition: {x: -24.98, y: 0.64}
   playerStorage: {fileID: 11400000, guid: 088c1b2081b68c44da913efd43309115, type: 2}
 --- !u!1 &327626802

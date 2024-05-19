@@ -133,7 +133,6 @@ GameObject:
   m_Component:
   - component: {fileID: 43415511}
   - component: {fileID: 43415510}
-  - component: {fileID: 43415509}
   m_Layer: 0
   m_Name: LipSync
   m_TagString: Untagged
@@ -141,36 +140,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &43415509
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 43415508}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87560e04aa74c7a41acb9c87051c3b02, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  profile: {fileID: 11400000, guid: 04d8d7db6114a384aaabeb1d02dd2013, type: 2}
-  onLipSyncUpdate:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2050528078}
-        m_TargetAssemblyTypeName: uLipSync.uLipSyncBlendShape, uLipSync.Runtime
-        m_MethodName: OnLipSyncUpdate
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  outputSoundGain: 1
-  audioSourceProxy: {fileID: 0}
 --- !u!82 &43415510
 AudioSource:
   m_ObjectHideFlags: 0
@@ -182,10 +151,10 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -722,6 +691,7 @@ GameObject:
   - component: {fileID: 1268214157}
   - component: {fileID: 1268214156}
   - component: {fileID: 1268214158}
+  - component: {fileID: 1268214159}
   m_Layer: 5
   m_Name: caja-texto
   m_TagString: Untagged
@@ -805,11 +775,48 @@ MonoBehaviour:
   - "Veo que aceptas el reto, pues adelante, \xA1vamos con los juegos!"
   - El primer juego se llama...
   - "\xA1Encuentra la Pareja Correcta!"
-  - "Tienes que ir levantando las cartas y encntrar todas las parejas de cartas.
+  - "Tienes que ir levantando las cartas y encontrar todas las parejas de cartas.
     Cuando encuentres dos parejas id\xE9nticas, estas permaneceran levantadas. Si
     no, estas se esconder\xE1n y deber\xE1s recordarlas."
   - Mucha suerte y recuerda, no te pases de los intentos permitidos.
+  audioClips:
+  - {fileID: 8300000, guid: 2a82887c5a9875e4cb190dc333a60110, type: 3}
+  - {fileID: 8300000, guid: f1ea20162c90d2042bae035dc78856ce, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 0f099bce79561fb4294606f542f30fc1, type: 3}
   textSpeed: 0.05
+  audioSource: {fileID: 43415510}
+--- !u!114 &1268214159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268214154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87560e04aa74c7a41acb9c87051c3b02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 11400000, guid: 04d8d7db6114a384aaabeb1d02dd2013, type: 2}
+  onLipSyncUpdate:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2050528078}
+        m_TargetAssemblyTypeName: uLipSync.uLipSyncBlendShape, uLipSync.Runtime
+        m_MethodName: OnLipSyncUpdate
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  outputSoundGain: 1
+  audioSourceProxy: {fileID: 0}
 --- !u!1 &1472918601
 GameObject:
   m_ObjectHideFlags: 0

@@ -133,7 +133,6 @@ GameObject:
   m_Component:
   - component: {fileID: 43415511}
   - component: {fileID: 43415510}
-  - component: {fileID: 43415509}
   m_Layer: 0
   m_Name: LipSync
   m_TagString: Untagged
@@ -141,36 +140,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &43415509
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 43415508}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87560e04aa74c7a41acb9c87051c3b02, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  profile: {fileID: 11400000, guid: 04d8d7db6114a384aaabeb1d02dd2013, type: 2}
-  onLipSyncUpdate:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2050528078}
-        m_TargetAssemblyTypeName: uLipSync.uLipSyncBlendShape, uLipSync.Runtime
-        m_MethodName: OnLipSyncUpdate
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  outputSoundGain: 1
-  audioSourceProxy: {fileID: 0}
 --- !u!82 &43415510
 AudioSource:
   m_ObjectHideFlags: 0
@@ -181,11 +150,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: cda1447acef379d469f397bbaba943e2, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -275,7 +244,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 43415508}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.5789616, y: -2.6208675, z: 37.10788}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -722,6 +691,7 @@ GameObject:
   - component: {fileID: 1268214157}
   - component: {fileID: 1268214156}
   - component: {fileID: 1268214158}
+  - component: {fileID: 1268214159}
   m_Layer: 5
   m_Name: caja-texto
   m_TagString: Untagged
@@ -821,8 +791,51 @@ MonoBehaviour:
   - "Una vez los hayas completado, hablar\xE9 con mi padre para que te fabrique la
     espada y derrotes al Rey Hielo."
   - "Cuando est\xE9s seguro de todo esto habla conmigo de nuevo, estar\xE9 preparando
-    todo. Hasta pronto."
+    todo. Hasta pronto, h\xE9roe."
+  audioClips:
+  - {fileID: 8300000, guid: cda1447acef379d469f397bbaba943e2, type: 3}
+  - {fileID: 8300000, guid: 2c2a61c82036ed54aa5f2c2860a22bff, type: 3}
+  - {fileID: 8300000, guid: c367b35bfb41eb743b29789a6ba0bf85, type: 3}
+  - {fileID: 8300000, guid: b49871fb7281a7142830773d58fcbeb1, type: 3}
+  - {fileID: 8300000, guid: 0b0271553739071418dcfcd885432938, type: 3}
+  - {fileID: 8300000, guid: a5ad1e723b3409047a135be1de49085d, type: 3}
+  - {fileID: 8300000, guid: a0ce273a07f01884ba84fb3df9218447, type: 3}
+  - {fileID: 8300000, guid: f6445bf7f9412244d901400c0446e4cb, type: 3}
+  - {fileID: 8300000, guid: 369f0f402f0d48f4e9b7d0b5dc571014, type: 3}
+  - {fileID: 8300000, guid: c543a663e651ce240861134009b6bb8c, type: 3}
+  - {fileID: 8300000, guid: 18d68d525d712b947abca3f21960eecf, type: 3}
   textSpeed: 0.05
+  audioSource: {fileID: 43415510}
+--- !u!114 &1268214159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268214154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87560e04aa74c7a41acb9c87051c3b02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 11400000, guid: 04d8d7db6114a384aaabeb1d02dd2013, type: 2}
+  onLipSyncUpdate:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2050528078}
+        m_TargetAssemblyTypeName: uLipSync.uLipSyncBlendShape, uLipSync.Runtime
+        m_MethodName: OnLipSyncUpdate
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  outputSoundGain: 1
+  audioSourceProxy: {fileID: 0}
 --- !u!1 &1472918601
 GameObject:
   m_ObjectHideFlags: 0
