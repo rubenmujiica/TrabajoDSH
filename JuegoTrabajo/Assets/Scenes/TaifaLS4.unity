@@ -774,10 +774,10 @@ MonoBehaviour:
   lines:
   - "\xA1Bien hecho! Me parece que eres invencible en este tipo de juegos."
   - "Pues bien, a ver c\xF3mo se te da este. Se llama: Puzzle Num\xE9rico. Encaja
-    los n\xFAmeros en su lugar correcto, no s\xE9 si ser\xE1s capaz esta vez ejeje"
+    los n\xFAmeros en su lugar correcto, no s\xE9 si ser\xE1s capaz esta vez jejeje"
   audioClips:
   - {fileID: 8300000, guid: 41559834bebbcf24dab12c82546fcdb7, type: 3}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 11dbec6795ffade4b8d256d5382a279a, type: 3}
   textSpeed: 0.05
   audioSource: {fileID: 43415510}
 --- !u!114 &1268214159

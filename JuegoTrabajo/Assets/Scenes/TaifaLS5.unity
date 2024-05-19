@@ -778,9 +778,9 @@ MonoBehaviour:
   - "Y ahora, hora de salvar la aldea. Busca a mi padre, te construir\xE1 la espada
     que necesitas, y derrotar\xE1s al Rey Hielo. Suerte Finn, eres un gran h\xE9roe."
   audioClips:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: c1abc0a5072c22f44877bdc9e9c5f286, type: 3}
+  - {fileID: 8300000, guid: 1f36bddd66ef05249ab803910d8c25be, type: 3}
+  - {fileID: 8300000, guid: d30ef63b873707e4095478be1313101a, type: 3}
   textSpeed: 0.05
   audioSource: {fileID: 43415510}
 --- !u!114 &1268214159
