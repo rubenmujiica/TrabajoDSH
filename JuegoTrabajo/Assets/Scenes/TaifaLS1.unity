@@ -716,7 +716,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -440}
+  m_AnchoredPosition: {x: 0, y: -439.99997}
   m_SizeDelta: {x: -40, y: -920}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1268214156
@@ -794,7 +794,7 @@ MonoBehaviour:
     todo. Hasta pronto, h\xE9roe."
   audioClips:
   - {fileID: 8300000, guid: cda1447acef379d469f397bbaba943e2, type: 3}
-  - {fileID: 8300000, guid: 2c2a61c82036ed54aa5f2c2860a22bff, type: 3}
+  - {fileID: 8300000, guid: 82241ea313fff3e4ab44f3f1c6498817, type: 3}
   - {fileID: 8300000, guid: c367b35bfb41eb743b29789a6ba0bf85, type: 3}
   - {fileID: 8300000, guid: b49871fb7281a7142830773d58fcbeb1, type: 3}
   - {fileID: 8300000, guid: 0b0271553739071418dcfcd885432938, type: 3}

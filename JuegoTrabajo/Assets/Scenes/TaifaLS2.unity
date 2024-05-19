@@ -782,8 +782,8 @@ MonoBehaviour:
   audioClips:
   - {fileID: 8300000, guid: 2a82887c5a9875e4cb190dc333a60110, type: 3}
   - {fileID: 8300000, guid: f1ea20162c90d2042bae035dc78856ce, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 1676f320ab6a1824fb68b173ac1c8330, type: 3}
+  - {fileID: 8300000, guid: bf07766c4e88c944fb512b3cfa0ec153, type: 3}
   - {fileID: 8300000, guid: 0f099bce79561fb4294606f542f30fc1, type: 3}
   textSpeed: 0.05
   audioSource: {fileID: 43415510}
