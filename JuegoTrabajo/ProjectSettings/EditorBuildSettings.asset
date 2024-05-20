@@ -68,4 +68,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CasaTaifaDespuesJuegos.unity
     guid: 842a0f40755764b49b6ccb4292f518f7
+  - enabled: 1
+    path: Assets/Scenes/MapaFinJuego.unity
+    guid: 4504a4ae979afd34ab20bad8307d98b7
+  - enabled: 1
+    path: Assets/Scenes/MapaEscenaFinal.unity
+    guid: 3b30842c8368edf41b383b44e0309c3e
+  - enabled: 0
+    path: Assets/Scenes/Creditos.unity
+    guid: 24fb96f40cca24b488bfaaf093c80dc0
+  - enabled: 1
+    path: Assets/Scenes/MenuCreditos.unity
+    guid: b60893ca0987b4a42960981a8cd54df1
   m_configObjects: {}
