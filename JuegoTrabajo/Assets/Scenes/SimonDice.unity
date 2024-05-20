@@ -629,7 +629,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 550451207}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 941210873}
+        m_TargetAssemblyTypeName: SimonDice, Assembly-CSharp
+        m_MethodName: ComprobarColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &550451207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -772,6 +784,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3d11a742c23d2c439bab6f61139b9e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ColorArriba: {fileID: 1668859030}
+  ColorGris: {fileID: 753278414}
+  Colores:
+  - {r: 0, g: 0.26666668, b: 1, a: 0}
+  - {r: 1, g: 0, b: 0.043137256, a: 0}
+  - {r: 0, g: 1, b: 0.1764706, a: 0}
+  - {r: 1, g: 0.59607846, b: 0.019607844, a: 0}
+  Nivel: 0
+  ColoresPorMostrar: 0
+  ColoresPorTocar: 0
+  TextoArriba: {fileID: 1832604144}
+  Secuencia: 
+  LevelText: {fileID: 405848174}
+  GameOver: {fileID: 0}
 --- !u!4 &941210874
 Transform:
   m_ObjectHideFlags: 0
@@ -868,7 +894,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1231785798}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 941210873}
+        m_TargetAssemblyTypeName: SimonDice, Assembly-CSharp
+        m_MethodName: ComprobarColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1231785798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1322,7 +1360,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1813153444}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 941210873}
+        m_TargetAssemblyTypeName: SimonDice, Assembly-CSharp
+        m_MethodName: ComprobarColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1813153444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1631,7 +1681,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2120746308}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 941210873}
+        m_TargetAssemblyTypeName: SimonDice, Assembly-CSharp
+        m_MethodName: ComprobarColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2120746308
 MonoBehaviour:
   m_ObjectHideFlags: 0
