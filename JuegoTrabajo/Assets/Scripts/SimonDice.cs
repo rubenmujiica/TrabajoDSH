@@ -32,6 +32,11 @@ public class SimonDice : MonoBehaviour
 
     public void Generator(){
         Nivel++;
+        //Si gano el nivel 8 cambio a la escena TaifaLS4
+        if(Nivel > 8)
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene("TaifaLS4");
+        }
         LevelText.text = "Nivel: " + Nivel;
         Secuencia.Add(Random.Range(0,4));
         MostrarColores();
