@@ -67,7 +67,7 @@ public class DialogueReyHieloFinal : MonoBehaviour
         else
         {
             dialogoObject.SetActive(false);
-            SceneManager.LoadScene("Creditos");
+            SceneManager.LoadScene("MenuCreditos");
         }
     }
 
