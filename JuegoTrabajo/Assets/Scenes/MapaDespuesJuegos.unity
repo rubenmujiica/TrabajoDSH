@@ -343,7 +343,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: CasaHerrero
-  playerPosition: {x: -1.4, y: -4.68}
+  playerPosition: {x: -1.4, y: -4.4}
   playerStorage: {fileID: 11400000, guid: 088c1b2081b68c44da913efd43309115, type: 2}
 --- !u!1 &370737530
 GameObject:
