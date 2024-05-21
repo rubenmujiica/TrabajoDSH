@@ -11633,7 +11633,7 @@ PrefabInstance:
     - target: {fileID: 2487078697348654295, guid: 09058f478a413ab4a9a3fc474aab0e84, type: 3}
       propertyPath: starting
       value: 
-      objectReference: {fileID: 11400000, guid: 088c1b2081b68c44da913efd43309115, type: 2}
+      objectReference: {fileID: 11400000, guid: 456d36e81ebd5fd49bd346847ac12bb1, type: 2}
     - target: {fileID: 2487078697348654295, guid: 09058f478a413ab4a9a3fc474aab0e84, type: 3}
       propertyPath: sonidoMoneda
       value: 
