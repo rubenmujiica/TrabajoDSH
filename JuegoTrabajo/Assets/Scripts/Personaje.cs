@@ -14,9 +14,8 @@ public class Personaje : MonoBehaviour
     private SpriteRenderer spritePersonaje;
     public VectorValue starting;
 
+    //Cristales
     public CoinManager cm;
-    //sonido
-    public AudioClip sonidoMoneda;
 
     void Start()
     {
@@ -57,15 +56,14 @@ public class Personaje : MonoBehaviour
         }
     }
 
-    //Jugador recoge monedas
+    //Jugador recoge cristales
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Moneda") || other.CompareTag("Cristal"))
+        if (other.CompareTag("Cristal"))
         {
             cm.totalCoins++;
-            AudioSource.PlayClipAtPoint(sonidoMoneda, transform.position);
             Destroy(other.gameObject);
-            //Si llego a 11 monedas cambia a la escena MapaEscenaFinal
+            //Si llego a 11 cristales cambia a la escena MapaEscenaFinal
             if (cm.totalCoins == 11)
             {
                 UnityEngine.SceneManagement.SceneManager.LoadScene("MapaEscenaFinal");
