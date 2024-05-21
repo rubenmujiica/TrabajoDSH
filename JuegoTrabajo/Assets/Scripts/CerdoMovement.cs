@@ -10,6 +10,7 @@ public class CerdoMovement : MonoBehaviour
 
     private SpriteRenderer sprite;
     // private Transform objetivo;
+    private bool objetivoDetectado;
 
     public GameObject PanelGameOver;
 
@@ -29,8 +30,12 @@ public class CerdoMovement : MonoBehaviour
 
     private void Update()
     {
+        float distancia = Vector3.Distance(personaje.position, this.transform.position);
+        if (distancia < 8)
+        {
         agente.SetDestination(personaje.position);
         rotarCerdo();
+        }
     }
 
 

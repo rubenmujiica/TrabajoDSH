@@ -60,11 +60,16 @@ public class Personaje : MonoBehaviour
     //Jugador recoge monedas
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Moneda"))
+        if (other.CompareTag("Moneda") || other.CompareTag("Cristal"))
         {
             cm.totalCoins++;
             AudioSource.PlayClipAtPoint(sonidoMoneda, transform.position);
             Destroy(other.gameObject);
+            //Si llego a 11 monedas cambia a la escena MapaEscenaFinal
+            if (cm.totalCoins == 11)
+            {
+                UnityEngine.SceneManagement.SceneManager.LoadScene("MapaEscenaFinal");
+            }
         }
     }
 }
