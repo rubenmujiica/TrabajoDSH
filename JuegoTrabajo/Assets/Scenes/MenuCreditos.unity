@@ -158,7 +158,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -1001}
+  m_AnchoredPosition: {x: 0, y: -976}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &758956934
@@ -258,9 +258,11 @@ MonoBehaviour:
 
     Ruben Mujica
 
+    Alvaro
+    Garcia
 
-    Jaime
-    Corrales
+
+    Jaime Corrales
 
     Marco Miranda'
   m_isRightToLeft: 0
@@ -325,7 +327,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -3.7817497, w: -387.06934}
+  m_margin: {x: 0, y: 0, z: -3.7817497, w: -422.60312}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -524,7 +526,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Desarrolladores\n\n\n\n\nProgramadores\n\n\n\nAnimador\n\nDise\xF1adores"
+  m_text: "Desarrolladores\n\n\n\n\nProgramadores\n\n\n\nAnimador\n\n\nDise\xF1adores"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f0c9245fd83bdca41bf61ff21acc1336, type: 2}
   m_sharedMaterial: {fileID: -5172219286522278012, guid: f0c9245fd83bdca41bf61ff21acc1336, type: 2}
